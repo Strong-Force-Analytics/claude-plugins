@@ -1,0 +1,19 @@
+{
+  "name": "sfa-plugins",
+  "owner": {
+    "name": "Strong Force Analytics"
+  },
+  "metadata": {
+    "description": "Strong Force Analytics internal Claude Code plugins."
+  },
+  "plugins": [
+    {
+      "name": "architect-crew",
+      "source": {
+        "source": "github",
+        "repo": "Strong-Force-Analytics/architect-crew"
+      },
+      "description": "Opus architect delegates bounded work to Haiku/Sonnet subagents (scout, runner, builder)."
+    }
+  ]
+}
