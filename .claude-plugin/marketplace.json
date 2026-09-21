@@ -10,8 +10,8 @@
     {
       "name": "architect-crew",
       "source": {
-        "source": "github",
-        "repo": "Strong-Force-Analytics/architect-crew"
+        "source": "url",
+        "url": "https://github.com/Strong-Force-Analytics/architect-crew.git"
       },
       "description": "Opus architect delegates bounded work to Haiku/Sonnet subagents (scout, runner, builder)."
     }

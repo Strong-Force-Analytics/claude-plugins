@@ -14,12 +14,16 @@ its own repo and is listed here.
    {
      "name": "my-plugin",
      "source": {
-       "source": "github",
-       "repo": "Strong-Force-Analytics/my-plugin"
+       "source": "url",
+       "url": "https://github.com/Strong-Force-Analytics/my-plugin.git"
      },
      "description": "One sentence on what it does."
    }
    ```
+
+   Use the full HTTPS `url` form, not the `github` shorthand. The shorthand tries SSH
+   first, which fails for anyone without SSH set up for GitHub (we hit this in testing).
+   HTTPS uses the same credentials as `gh auth login`.
 
 3. Add a row to the table in `README.md`.
 4. Run `claude plugin validate .` in this repo. It must pass.
@@ -36,8 +40,8 @@ That happens in the plugin's own repo, not here:
    bumped, they won't get the change.
 
 No change is needed in this repo, because the entry tracks the plugin repo's default
-branch. To pin a plugin to a fixed release, add `"ref": "v1.2.0"` (a tag) or a `"sha"`
-to its `source`.
+branch. To pin a plugin to a fixed release, add `"ref": "v1.2.0"` (a tag) to its
+`source`.
 
 ## Rules
 
