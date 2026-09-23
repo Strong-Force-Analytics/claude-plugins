@@ -48,5 +48,11 @@ branch. To pin a plugin to a fixed release, add `"ref": "v1.2.0"` (a tag) to its
 - The marketplace `name` (`sfa-plugins`) must not be changed casually, since every
   install command and team `settings.json` refers to it. Names that look like official
   Anthropic marketplaces are rejected by `claude plugin validate`.
-- Keep plugin repos private unless everyone involved agreed to open-source them.
-- Don't put secrets in a plugin. Anyone who can install it can read it.
+- This marketplace is **public**, and a plugin listed here is only reachable from it if
+  its own repo is public too. Get explicit agreement from everyone who wrote a plugin's
+  content before making its repo public — a plugin can start private in its own repo and
+  be added here later, once that's settled.
+- Give a public plugin repo a `LICENSE` file (MIT is the default we've used) so others
+  actually have permission to reuse it, not just visibility into it.
+- Don't put secrets in a plugin. Anyone who can install it can read it — doubly true now
+  that this marketplace is public.

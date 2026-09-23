@@ -1,7 +1,8 @@
 # claude-plugins
 
-Strong Force Analytics' internal **Claude Code plugin marketplace**. One place to get the
-Claude Code add-ons our team shares, installed with two commands.
+Strong Force Analytics' **Claude Code plugin marketplace**. One place to get the Claude
+Code add-ons our team shares, installed with two commands. Public — no access request
+needed to install.
 
 ## Plugins
 
@@ -11,8 +12,8 @@ Claude Code add-ons our team shares, installed with two commands.
 
 ## Install a plugin
 
-Requirements: Claude Code, and access to this repo plus the plugin's repo
-(`gh auth login` if you haven't authenticated with GitHub).
+Requirements: [Claude Code](https://code.claude.com) and `git`. Both this repo and the
+plugin repos it lists are public, so no GitHub access or login is required.
 
 ```
 /plugin marketplace add Strong-Force-Analytics/claude-plugins
@@ -55,10 +56,14 @@ to that repo's `.claude/settings.json`:
 
 | Problem | Fix |
 |---------|-----|
-| "repository not found" / auth error | You need access to the repo and git credentials: run `gh auth login`, and ask an org admin to add you. |
+| "repository not found" | Double-check the spelling: `Strong-Force-Analytics/claude-plugins`. If it persists, run `gh auth login` and retry. |
 | Plugin installed but not active | Run `/reload-plugins`, then start a new session. |
 | Not seeing a new version | Run `/plugin marketplace update`. A plugin only updates when its `version` was bumped. |
 
 ## Adding or updating a plugin
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+[MIT](LICENSE).
