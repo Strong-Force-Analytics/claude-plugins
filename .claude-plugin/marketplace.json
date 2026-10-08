@@ -14,6 +14,22 @@
         "url": "https://github.com/Strong-Force-Analytics/architect-crew.git"
       },
       "description": "Opus architect delegates bounded work to Haiku/Sonnet subagents (scout, runner, builder)."
+    },
+    {
+      "name": "sfa",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Strong-Force-Analytics/sfa-team.git"
+      },
+      "description": "Team kit: answers how SFA works from the team handbook, plus /sfa:ask, /sfa:onboard, /sfa:card and /sfa:daily-update."
+    },
+    {
+      "name": "trello",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Strong-Force-Analytics/trello-skill.git"
+      },
+      "description": "Direct Trello API access: read cards, comment, create cards and checklists, upload and download attachments. No MCP server."
     }
   ]
 }
