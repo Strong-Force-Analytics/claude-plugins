@@ -48,10 +48,14 @@ branch. To pin a plugin to a fixed release, add `"ref": "v1.2.0"` (a tag) to its
 - The marketplace `name` (`sfa-plugins`) must not be changed casually, since every
   install command and team `settings.json` refers to it. Names that look like official
   Anthropic marketplaces are rejected by `claude plugin validate`.
-- This marketplace is **public**, and a plugin listed here is only reachable from it if
-  its own repo is public too. Get explicit agreement from everyone who wrote a plugin's
-  content before making its repo public — a plugin can start private in its own repo and
-  be added here later, once that's settled.
+- This marketplace is **public**, but a plugin listed here can live in a **private** repo.
+  Claude Code clones it with the installer's own git credentials, so org members can install
+  it and everyone else gets a clone error. Tested 2026-10-09 with `sfa`: a clean reinstall
+  from this marketplace worked for an org member. Members need `gh auth login` and
+  `gh auth setup-git` (or another git credential helper) so git can reach private repos.
+  The plugin's name, description and repo URL here are still public.
+- Get explicit agreement from everyone who wrote a plugin's content before making its repo
+  public.
 - Give a public plugin repo a `LICENSE` file (MIT is the default we've used) so others
   actually have permission to reuse it, not just visibility into it.
 - Don't put secrets in a plugin. Anyone who can install it can read it — doubly true now

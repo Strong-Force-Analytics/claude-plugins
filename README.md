@@ -9,7 +9,7 @@ needed to install.
 | Plugin | What it does |
 |--------|--------------|
 | [architect-crew](https://github.com/Strong-Force-Analytics/architect-crew) | Opus session delegates reading, commands and edits to cheap Haiku/Sonnet subagents. Big budget saver. |
-| [sfa](https://github.com/Strong-Force-Analytics/sfa-team) | Team kit: answers how SFA works from the team handbook (needs org access), plus `/sfa:ask`, `/sfa:onboard`, `/sfa:card`, `/sfa:daily-update`. |
+| [sfa](https://github.com/Strong-Force-Analytics/sfa-team) | Team kit (private repo, org members only): answers how SFA works from the team handbook, plus `/sfa:ask`, `/sfa:onboard`, `/sfa:card`, `/sfa:daily-update`. |
 | [trello](https://github.com/Strong-Force-Analytics/trello-skill) | Direct Trello API access: cards, comments, checklists, attachment upload and download. |
 
 ## Install a plugin
