@@ -23,5 +23,9 @@
       },
       "description": "Team kit: answers how SFA works from the team handbook, Trello through the official Trello MCP server plus a small helper, and /sfa:setup, /sfa:ask, /sfa:onboard, /sfa:card and /sfa:daily-update."
     }
-  ]
+  ],
+  "renames": {
+    "trello": null
+  },
+  "forceRemoveDeletedPlugins": true
 }
