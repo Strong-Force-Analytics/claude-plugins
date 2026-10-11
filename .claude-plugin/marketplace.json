@@ -21,15 +21,7 @@
         "source": "url",
         "url": "https://github.com/Strong-Force-Analytics/sfa-team.git"
       },
-      "description": "Team kit: answers how SFA works from the team handbook, plus /sfa:ask, /sfa:onboard, /sfa:card and /sfa:daily-update."
-    },
-    {
-      "name": "trello",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/Strong-Force-Analytics/trello-skill.git"
-      },
-      "description": "Direct Trello API access: read cards, comment, create cards and checklists, upload and download attachments. No MCP server."
+      "description": "Team kit: answers how SFA works from the team handbook, Trello through the official Trello MCP server plus a small helper, and /sfa:setup, /sfa:ask, /sfa:onboard, /sfa:card and /sfa:daily-update."
     }
   ]
 }
