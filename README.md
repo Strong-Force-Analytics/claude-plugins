@@ -9,6 +9,7 @@ needed to install.
 | Plugin | What it does |
 |--------|--------------|
 | [architect-crew](https://github.com/Strong-Force-Analytics/architect-crew) | Opus session delegates reading, commands and edits to cheap Haiku/Sonnet subagents. Big budget saver. |
+| [queue](https://github.com/Strong-Force-Analytics/queue-lanes) | Session lanes by Brett Ragozzine: one `QUEUE.md` per repo, one command per kind of session (`/queue:build`, `/queue:spec`, ...), and `/queue:end` to hand off and open the pull request. |
 | [sfa](https://github.com/Strong-Force-Analytics/sfa-team) | Team kit (private repo, org members only): answers how SFA works from the team handbook, plus `/sfa:ask`, `/sfa:onboard`, `/sfa:card`, `/sfa:daily-update`. |
 
 ## Install a plugin
