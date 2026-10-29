@@ -16,6 +16,14 @@
       "description": "Opus architect delegates bounded work to Haiku/Sonnet subagents (scout, runner, builder)."
     },
     {
+      "name": "queue",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Strong-Force-Analytics/queue-lanes.git"
+      },
+      "description": "Session lanes by Brett Ragozzine: one QUEUE.md per repo, /queue:spec, /queue:build, /queue:audit and /queue:meta to open a session, /queue:end to hand off and open the pull request, /queue:init to set a repo up."
+    },
+    {
       "name": "sfa",
       "source": {
         "source": "url",
