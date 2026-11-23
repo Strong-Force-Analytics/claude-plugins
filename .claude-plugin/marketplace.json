@@ -16,6 +16,14 @@
       "description": "Opus architect delegates bounded work to Haiku/Sonnet subagents (scout, runner, builder)."
     },
     {
+      "name": "okf",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/scaccogatto/okf-skills.git"
+      },
+      "description": "Open Knowledge Format (OKF) doc headers, by scaccogatto: write, validate, visualize and serve OKF bundles. The team's pick for doc headers; /sfa:card-submit and /sfa:card-close use its format check."
+    },
+    {
       "name": "queue",
       "source": {
         "source": "url",
@@ -29,7 +37,7 @@
         "source": "url",
         "url": "https://github.com/Strong-Force-Analytics/sfa-team.git"
       },
-      "description": "Team kit: answers how SFA works from the team handbook, Trello through the official Trello MCP server plus a small helper, the team commands /sfa:setup, /sfa:ask, /sfa:onboard, /sfa:card, /sfa:daily-update and /sfa:queue, and the role report /sfa:ceo."
+      "description": "Team kit: answers how SFA works from the team handbook, Trello through the official Trello MCP server plus a small helper, the card gates /sfa:card-new, /sfa:card-start, /sfa:card-submit and /sfa:card-close, the team commands /sfa:setup, /sfa:ask, /sfa:onboard and /sfa:daily-update, and the role report /sfa:ceo."
     }
   ],
   "renames": {
